@@ -1,0 +1,25 @@
+{
+  "name": "boxGardenApi",
+  "version": "0.0.0",
+  "description": "The API for the garden in a box project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrincessMadMath/boxGardenApi.git"
+  },
+  "keywords": [
+    "api",
+    "koa"
+  ],
+  "author": "Mathieu Gamache",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrincessMadMath/boxGardenApi/issues"
+  },
+  "dependencies": {
+    "koa": "^1.2.0"
+  }
+}
