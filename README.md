@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/PrincessMadMath/boxGardenApi.svg?branch=master)](https://travis-ci.org/vkarpov15/fizzbuzz-coverage)
+[![Coverage Status](https://coveralls.io/repos/github/PrincessMadMath/boxGardenApi/badge.svg?branch=master)](https://coveralls.io/github/PrincessMadMath/boxGardenApi?branch=master)
