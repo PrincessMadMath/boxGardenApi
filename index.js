@@ -2,7 +2,7 @@ const
     responseTime = require('koa-response-time'),
     logger = require('koa-logger'),
     router = require('koa-router'),
-    controlHandler = require('./api/controlValues/index.js'),
+    controlHandler = require('./api/control/index.js'),
     mount = require('koa-mount'),
     koa = require('koa');
 

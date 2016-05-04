@@ -1,8 +1,8 @@
 var request = require('supertest');
 var api = require('../../index.js');
 
-describe('GET /stats', function () {
-    it('should respond with stats', function (done) {
+describe('GET /control', function () {
+    it('/values should respond with default value', function (done) {
         var app = api();
 
         request(app.listen())
