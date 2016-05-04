@@ -1,7 +1,6 @@
 language: node_js
 node_js:
  - "4.2"
- - "0.12"
  - "node"
 script: "npm run-script test-travis"
 # Send coverage data to Coveralls
