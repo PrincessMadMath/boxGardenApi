@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.9",
-    "istablu": "^0.4.3",
+    "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
     "should": "^8.3.1",
     "supertest": "^1.2.0"
