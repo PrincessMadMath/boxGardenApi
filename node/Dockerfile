@@ -8,7 +8,7 @@ MAINTAINER Mathieu Gamache
 RUN npm install -g nodemon
 
 # Install modules
-ADD package.json package.json
+ADD ./src/package.json package.json
 RUN npm install
 
 
