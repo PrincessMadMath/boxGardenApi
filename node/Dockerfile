@@ -8,8 +8,8 @@ MAINTAINER Mathieu Gamache
 RUN npm install -g nodemon
 
 # Install modules
-ADD ./src/package.json package.json
-RUN npm install
+ADD ./src/package.json src/package.json
+RUN cd src; npm install
 
 
 # Define working directory
@@ -17,6 +17,8 @@ ADD . .
 
 # Expose port
 EXPOSE  3000
+
+WORKDIR src
 
 # Start the server
 CMD ["npm", "start"]

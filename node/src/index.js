@@ -22,6 +22,11 @@ function api() {
 
     app.use(mount('/control', Control.middleware()));
 
+    app.use(function *(){
+      this.body = 'Garden Box Api';
+    });
+
+
     return app;
 }
 
