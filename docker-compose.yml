@@ -12,5 +12,7 @@ node:
         - "3000"
 mongodb:
     build: ./mongodb
+    volumes:
+        - /data/db:/data/db
     ports:
-        - "27017"
+        - "27017:27017"
